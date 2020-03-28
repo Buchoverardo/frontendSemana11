@@ -1,9 +1,13 @@
 import React from 'react';
 
+import './global.css';
+
+import Routes from './routes';
 
 function App() {
+  
   return (
-    <h1>ola !!!</h1>
+      <Routes/>
   );
 }
 
